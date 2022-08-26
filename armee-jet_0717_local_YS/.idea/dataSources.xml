@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="tms@47.110.251.155" uuid="109c3633-29c9-4239-b87e-b2552ace1c62">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.110.251.155:3306/tms</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="tms@115.29.196.177" uuid="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://115.29.196.177:3306/tms</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="tms@121.40.144.211" uuid="18b7dd16-b6a8-47c0-bc32-83d455a38b73">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://121.40.144.211:3306/tms</jdbc-url>
+    </data-source>
+  </component>
+</project>

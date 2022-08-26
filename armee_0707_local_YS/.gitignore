@@ -1,0 +1,30 @@
+# java
+target/
+#*.class
+#*.jar
+
+# !
+## .idea
+/.idea/
+*.iml
+
+# log
+*.log
+
+# page
+_config.yml
+CNAME
+
+# apollo pack
+apollo-*.zip
+apollo-*.sha1
+
+# mac
+*.DS_Store
+
+# 不能上传的密钥
+/script/security/
+
+# jar
+*.jar
+!taobao-sdk-java-auto_1479188381469-20210119.jar
