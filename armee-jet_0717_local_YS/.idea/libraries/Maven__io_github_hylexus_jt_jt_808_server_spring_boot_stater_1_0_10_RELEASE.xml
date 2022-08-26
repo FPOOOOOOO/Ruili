@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.github.hylexus.jt:jt-808-server-spring-boot-stater:1.0.10-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/hylexus/jt/jt-808-server-spring-boot-stater/1.0.10-RELEASE/jt-808-server-spring-boot-stater-1.0.10-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/hylexus/jt/jt-808-server-spring-boot-stater/1.0.10-RELEASE/jt-808-server-spring-boot-stater-1.0.10-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/hylexus/jt/jt-808-server-spring-boot-stater/1.0.10-RELEASE/jt-808-server-spring-boot-stater-1.0.10-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

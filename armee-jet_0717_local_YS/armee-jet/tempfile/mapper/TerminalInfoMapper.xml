@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="TerminalInfoDao">
+    <!--return object-->
+    <!--ResultMap使用方法：https://blog.csdn.net/bear_wr/article/details/52383840-->
+    <resultMap id="BaseResultMap" type="TerminalInfo">
+        <result column="terminal_id" property="terminalId" />
+        <result column="password" property="password" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+		terminal_id, password
+	</sql>
+
+    <select id="findTerminal" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        <include refid="Base_Column_List" />
+        from client
+        where terminal_id = #{terminalId} and password = #{password}
+    </select>
+
+</mapper>
+
+<!--
+1 通过JDBC查询得到ResultSet对象
+2 遍历ResultSet对象并将每行数据暂存到HashMap实例中，以结果集的字段名或字段别名为键，以字段值为值
+3 根据ResultMap标签的type属性通过反射实例化领域模型
+4 根据ResultMap标签的type属性和id、result等标签信息将HashMap中的键值对，填充到领域模型实例中并返回
+-->

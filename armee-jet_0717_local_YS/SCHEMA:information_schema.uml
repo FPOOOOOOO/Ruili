@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.SCHEMA:information_schema</OriginalElement>
+  <nodes>
+    <node x="245.0" y="688.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device_lock_record</node>
+    <node x="0.0" y="895.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.oauth_access_token</node>
+    <node x="752.5" y="88.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.authority</node>
+    <node x="204.75" y="0.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.staff</node>
+    <node x="434.75" y="431.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_staff</node>
+    <node x="547.5" y="55.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials</node>
+    <node x="185.75" y="322.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device</node>
+    <node x="565.0502309438253" y="637.2369966911143">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.oauth_client_details</node>
+    <node x="282.0" y="895.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.oauth_refresh_token</node>
+    <node x="684.5" y="431.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_authorities</node>
+    <node x="0.0" y="666.0">5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.lock_auth_info</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_authorities" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.authority">
+      <point x="53.0" y="-38.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_staff" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.staff">
+      <point x="-53.0" y="-38.0" />
+      <point x="487.75" y="297.0" />
+      <point x="363.91666666666663" y="297.0" />
+      <point x="63.66666666666663" y="136.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.staff">
+      <point x="0.0" y="-147.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.lock_auth_info" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device">
+      <point x="56.25" y="-92.0" />
+      <point x="168.75" y="641.0" />
+      <point x="243.0" y="641.0" />
+      <point x="-57.25" y="147.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.lock_auth_info" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.staff">
+      <point x="-56.25" y="-92.0" />
+      <point x="56.25" y="297.0" />
+      <point x="236.58333333333331" y="297.0" />
+      <point x="-63.666666666666686" y="136.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_authorities" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials">
+      <point x="-53.0" y="-38.0" />
+      <point x="737.5" y="297.0" />
+      <point x="686.25" y="297.0" />
+      <point x="46.25" y="81.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device_lock_record" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.device">
+      <point x="0.0" y="-70.0" />
+      <point x="57.25" y="147.0" />
+    </edge>
+    <edge source="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials_staff" target="5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.credentials">
+      <point x="53.0" y="-38.0" />
+      <point x="-46.25" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6104479212912972" x="582.0487122253764" y="533.43505874503" />
+  <SelectedNodes>
+    <node>5d4e4f25-87bc-4e99-b45e-ad67f7a836a3.TABLE:tms.oauth_client_details</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

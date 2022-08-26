@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    # mysql替换为自己的IP地址
+    url: jdbc:${MYSQL_URL:mysql://mysql:3306/test}?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: ${MYSQL_USRNAME:root}
+    password: ${MYSQL_PASSWD:Root123456@}
+    driver-class-name:
+
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      pool-name: AppHikariCP
+      minimum-idle: 5
+      maximum-pool-size: 25
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      connection-timeout: 10000
+      auto-commit: true
+      connection-test-query: SELECT 1
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: icu.nescar.armee.jet.samples.customized.ext.auth.dal.domain

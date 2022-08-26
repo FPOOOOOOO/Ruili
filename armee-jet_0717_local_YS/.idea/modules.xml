@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/armee-jet/armee-jet.iml" filepath="$PROJECT_DIR$/armee-jet/armee-jet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/armee-jet-test.iml" filepath="$PROJECT_DIR$/.idea/armee-jet-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/armee-jet/jet808-samples-customized/jet808-samples-customized.iml" filepath="$PROJECT_DIR$/armee-jet/jet808-samples-customized/jet808-samples-customized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/armee-jet/jt-808-server-support/jt-808-server-support.iml" filepath="$PROJECT_DIR$/armee-jet/jt-808-server-support/jt-808-server-support.iml" />
+    </modules>
+  </component>
+</project>
